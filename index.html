@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Creator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+    <style>
+        body{
+            background: url();
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: "Montserrat", sans-serif;
+            font-size: 13px;
+
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 30px;
+
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgb(115, 161, 197) 0%, rgba(59, 130, 246, 0) 70%);
+        }
+
+        .buttons a{
+            padding: 3px 8px;
+            background-color: rgb(245, 245, 245);
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            border: 1px solid rgb(108, 108, 108);
+            border-radius: 20px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 12px;
+            font-weight: 380;
+            margin-right: 8px;
+        }
+
+        .buttons:hover{
+            cursor: pointer;
+        }
+
+        .buttons a:hover{
+            background-color: rgb(196, 200, 205);
+            transform: scale(1.07);
+        }
+
+        .header h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 45px;
+            margin-bottom: 8px;
+            
+        }
+
+        .header p{
+            margin-top: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- <header>
+        <nav class="navbar">
+            <a href="#profile">Homepage</a>
+            <a href="#interests">Profile</a>
+            <a href="#extra">Extra</a>
+            <a href="#contact">Socials</a>
+        </nav>
+    </header> -->
+
+    <div class="container" id="profile">
+        <div class="card">
+            <div class="header">
+                <h1>Meet the Creator</h1>
+                <p><b>hello!</b> I'm Tanya/Julie, a 16-year-old student at OBMC, passionate about anything creative or visual.</p>
+
+                <div class="buttons"> <!-- navigation area -->
+                    <a href="profile.html">Profile</a>
+                    <a href="interests.html">Interests</a>
+                    <a href="extra.html">Extra</a>
+                    <a href="socials.html">Socials</a>
+                </div>
+            </div>
+        </div>
+    </div>     
+
+    
+    
+    <script type="py" src="main.py"></script>
+</body>
+</html>
